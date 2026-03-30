@@ -19,7 +19,6 @@ export function ProductRow({ product }: ProductRowProps) {
 
   return (
     <TableRow
-      data-state={checked ? "selected" : undefined}
       className={`h-17.75 border-b-[#e2e2e2] ${checked ? "shadow-[inset_3px_0_0_0_#3C538E]" : ""}`}
     >
       <TableCell className="w-12.5 pl-4.5">
